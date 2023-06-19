@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(180deg, #00ffff 0, #41f5ff 25%, #53bcf2 50%, #5087ab 75%, #425a6e 100%);
+}
+
+.cabeçalho {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.Icone-cabeçalho{
+    height: 72px;
+}
+
+.cabeçalho-menu{
+    display: flex;
+    gap: 40px;
+}
+
+.cabeçalho-item{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: white;
+font-weight: 400;
+font-size: 17px;
+}
+
+.cabeçalho-item:hover{
+    background-color: rgb(6, 6, 83);
+    }
+
+.conteúdo{
+    margin-bottom: 40px;
+    border-top: 0.1px solid rgb(16, 73, 126);
+}
+
+.conteúdo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteúdo-principal-escrito{
+    display:flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteúdo-principal-escrito-titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 45px;
+    color: white
+}
+.conteúdo-principal-escrito-subtitulo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+}
+.botão{
+    background-color: rgb(246, 246, 247);
+    width: 150px;
+    height: 40px;
+    border-radius: none;
+    box-shadow: 4px 5px 4px black;
+    border-radius: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400px;
+    font-size: 15px;
+}
+.botão:hover{
+    background-color: blue;
+}
+
+.Imagem-infralog{
+    height: 230px;
+}
+
+.conteúdo-secundário{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+.titulo-secundário{
+    border-top: 0.1px solid rgb(16, 73, 126);
+    padding-top: 48px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 16px;
+
+}
+
+.parágrafo-secundário{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(13, 10, 41);
+}
+
+.rodapé{
+    padding: 20px;
+    border-top: 0.4px solid white;
+
+}
+
+.imagem-rodapé{
+    height: 78px;
+    display: block;
+    margin: 0   auto;
+}
+
